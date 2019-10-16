@@ -1,15 +1,21 @@
 spring:
-    profiles:
-        active: dev111111
+  profiles:
+    active: dev
 
+---
+#dev配置
 spring:
-    application:
-        name: leemsc-config-dev
-    profiles:
-        active: dev
+  application:
+    name: leemsc-config-dev
+  profiles:
+    active: dev
 
+
+
+---
+#test配置
 spring:
-    application:
-        name: leemsc-config-test
-    profiles:
-        active: test
+  application:
+    name: leemsc-config-test
+  profiles:
+    active: test
