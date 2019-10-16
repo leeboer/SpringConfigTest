@@ -1,4 +1,4 @@
-#配置dev环境
+#脜盲脰脙dev禄路戮鲁
 server:
   port: 7070
 spring:
@@ -24,7 +24,7 @@ hystrix:
 
 
 ---
-#配置test环境
+#脜盲脰脙test禄路戮鲁
 server:
   port: 9090
 spring:
