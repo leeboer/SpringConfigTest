@@ -1,4 +1,4 @@
-#dev环境
+#dev鐜
 server:
   port: 8082
 
@@ -45,7 +45,7 @@ info:
 
 
 ---
-#test环境
+#test鐜
 server:
   port: 8083
 
