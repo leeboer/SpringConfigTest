@@ -1,0 +1,15 @@
+spring:
+    profiles:
+        active: dev
+
+spring:
+    application:
+        name: leemsc-config-dev
+    profiles:
+        active: dev
+
+spring:
+    application:
+        name: leemsc-config-test
+    profiles:
+        active: test
