@@ -1,4 +1,4 @@
-#ÅäÖÃdev»·¾³
+#dev环境
 server:
   port: 7070
 spring:
@@ -24,7 +24,7 @@ hystrix:
 
 
 ---
-#ÅäÖÃtest»·¾³
+#test环境
 server:
   port: 9090
 spring:
