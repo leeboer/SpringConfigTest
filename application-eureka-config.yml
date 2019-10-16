@@ -1,4 +1,4 @@
-#dev»·¾³
+#devç¯å¢ƒ
 spring:
   application:
     name: leemsc-eurekaServer-config
@@ -7,16 +7,16 @@ server:
   port: 8100
 eureka:
   instance:
-    hostname: localhost #Ö¸¶¨EurekaÖ÷»ú
+    hostname: localhost #æŒ‡å®šEurekaä¸»æœº
   client:
-    fetch-registry: false #Ö¸¶¨µ±Ç°Ö÷»úÊÇ·ñĞèÒª»ñÈ¡×¢²áĞÅÏ¢
-    register-with-eureka: false #Ö¸¶¨µ±Ç°Ö÷»úÊÇ·ñĞèÒªÏò×¢²áÖĞĞÄ×¢²á
+    fetch-registry: false #æŒ‡å®šå½“å‰ä¸»æœºæ˜¯å¦éœ€è¦è·å–æ³¨å†Œä¿¡æ¯
+    register-with-eureka: false #æŒ‡å®šå½“å‰ä¸»æœºæ˜¯å¦éœ€è¦å‘æ³¨å†Œä¸­å¿ƒæ³¨å†Œ
     service-url:
-      defaultZone: http://localhost:8100/eureka #±©Â¶·şÎñÖĞĞÄµØÖ·
+      defaultZone: http://localhost:8100/eureka #æš´éœ²æœåŠ¡ä¸­å¿ƒåœ°å€
 
 
 ---
-#test²âÊÔ»·¾³
+#testç¯å¢ƒ
 spring:
   application:
     name: leemsc-eurekaServer-config
