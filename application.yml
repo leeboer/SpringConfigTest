@@ -7,8 +7,7 @@ spring:
 spring:
   application:
     name: leemsc-config-dev
-  profiles:
-    active: dev
+  profiles: dev
 
 
 
@@ -17,5 +16,4 @@ spring:
 spring:
   application:
     name: leemsc-config-test
-  profiles:
-    active: test
+  profiles: test
